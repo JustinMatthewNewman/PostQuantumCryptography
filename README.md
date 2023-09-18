@@ -30,9 +30,9 @@ To decrypt, the I used: v - su (mod q)
 
 Original algorithm invented by Oded Regev.
 This python implementation was created by:
-Justin Newman
+Justin Newman.
 
-Based on a lesson by Bill Buchanan OBE
+Based on a lesson by Bill Buchanan OBE.
 Contributions are welcome!
 
 
