@@ -17,7 +17,7 @@ Each $A_i$ is randomly generated where $A_i$ is less than $q$.
 # Vector B
 $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
-# Error Vector e
+# Vector e
 $$e = (e_1, e_2,  \ldots, e_i, \ldots, e_n)$$
 
 let $c$ denote the sample size.
