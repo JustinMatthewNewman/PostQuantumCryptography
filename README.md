@@ -2,7 +2,7 @@
 This is a python implementation of the Learning with Errors (LWE) post quantum encryption algorithm. 
 LWE provides resistance against quantum computers by using randomly generated matrices over integers modulo a prime number.
 
-# Anyone can implement LWE!:
+# (LWE) Post Quantum Encryption is simple!
 
 LWE relies on the hardness of distinguishing random linear equations from those with added small errors. 
 It generates a public key made up of a vector A and a vector B.
