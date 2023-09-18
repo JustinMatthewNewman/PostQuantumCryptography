@@ -37,7 +37,7 @@ Next we choose various random indexes $i$ and sample pairs of ( $A_i$ , $B_i$ ).
 
 We let $c$ denote the sample size.
 
-To encrypt, random samples are taken from A and B, summed separately and a e_i is added to each element of B. 
+To encrypt, the random samples are summed separately. 
 
 $$u=\left( \sum_{i=1}^c sample_(A_i) \right), v=\left( \sum_{i=1}^c sample_(B_i) \right)$$
 
