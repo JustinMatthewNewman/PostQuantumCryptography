@@ -33,9 +33,9 @@ $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
 
 
-Next we take various random samples as pairs of ( $A_i$, $B_i$ ).
+Next we choose various random indexes $i$ and sample pairs of ( $A_i$ , $B_i$ ).
 
-let $c$ denote the sample size.
+We let $c$ denote the sample size.
 
 To encrypt, random samples are taken from A and B, summed separately and a e_i is added to each element of B. 
 
