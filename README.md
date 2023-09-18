@@ -6,11 +6,13 @@ LWE provides resistance against quantum computers by using randomly generated ma
 
 LWE relies on the hardness of distinguishing random linear equations from those with added small errors. 
 
+We begin with a prime integer $q$.
+
 It generates a public key made up of a matrix A and a vector B.
 
 # Vector A
 $$A = (A_1, A_2, \ldots, A_n)$$
-$Each $A_i$ is randomly generated in $\mathbb{Z}_q$ (integers modulo q)$
+Each $A_i$ is randomly generated in $\mathbb{Z}_q$ (integers modulo q)
 # Vector B
 $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
