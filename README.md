@@ -20,9 +20,11 @@ $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 # Error Vector e
 $$e = (e_1, e_2,  \ldots, e_i, \ldots, e_n)$$
 
-
+let $c$ denote the sample size.
 
 To encrypt, random samples are taken from A and B, summed separately and a e_i is added to each element of B. 
+
+$$\left( \sum_{k=1}^n b_k^2 \right)$$
 
 The ciphertext is the pair of summed values from A and B after -q/2 * M is applied to v, where M is a single bit to be encrypted.
 
