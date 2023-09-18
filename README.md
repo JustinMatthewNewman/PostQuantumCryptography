@@ -43,7 +43,14 @@ To encrypt, the random samples are summed separately.
 
 $$u=\left( \sum_{i=1}^c sample_(A_i) \right), v=\left( \sum_{i=1}^c sample_(B_i) \right)$$
 
-The ciphertext is the pair of summed values from A and B after -q/2 * M is applied to v, where M is a single bit to be encrypted.
+And then
+
+
+$v = v + \left\lfloor \frac{q}{2} \right\rfloor \cdot M$
+$v = v \pmod{q}$
+$u = u \pmod{q}$
+
+Where $M$ is a single bit to be encrypted.
 
 To decrypt, the I used: v - su (mod q)
 
