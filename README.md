@@ -26,6 +26,7 @@ Each $e_i$ is a small randomly generated integer where $e_i$ is less than a fixe
 $$e = (e_1, e_2,  \ldots, e_i, \ldots, e_n)$$
 
 # Vector B
+Each $B_i$ is computed as follows:
 $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
 
