@@ -13,7 +13,7 @@ A discrete integer secret $'s'$.
 
 A randomly selected prime integer  $'q'$.
 
-It generates a public key made up of a vector A and a vector B of length $'n'$.
+We then generate a public key made up of length $n$ vectors A and B.
 
 
 # Vector A
