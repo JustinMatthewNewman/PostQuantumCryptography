@@ -29,7 +29,9 @@ $$e = (e_1, e_2,  \ldots, e_i, \ldots, e_n)$$
 Each $B_i$ is computed as follows:
 $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
-Next we take various random samples as pairs of ($A_k$,$B_k$).
+# Random Samples
+
+Next we take various random samples as pairs of ( $A_k$, $B_k$ ).
 
 let $c$ denote the sample size.
 
