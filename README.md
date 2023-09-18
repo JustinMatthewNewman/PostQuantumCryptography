@@ -19,11 +19,16 @@ We then generate a public key made up of length $n$ vectors A and B.
 # Vector A
 Each $A_i$ is randomly generated where $A_i$ is less than $q$.
 $$A = (A_1, A_2, \ldots, A_i, \ldots, A_n)$$
+
+# Vector e
+Each $e_i$ is a small randomly generated integer where $e_i$ is less than a fixed integer much smaller than $q$.
+
+$$e = (e_1, e_2,  \ldots, e_i, \ldots, e_n)$$
+
 # Vector B
 $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
-# Vector e
-$$e = (e_1, e_2,  \ldots, e_i, \ldots, e_n)$$
+
 
 let $c$ denote the sample size.
 
