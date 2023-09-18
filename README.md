@@ -9,8 +9,8 @@ LWE relies on the hardness of distinguishing random linear equations from those 
 It generates a public key made up of a vector A and a vector B.
 
 We begin with a prime integer $q$.
-integer size $n$.
-integer secret $s$.
+discrete vector length $n$.
+discrete secret $s$.
 
 # Vector A
 Each $A_i$ is randomly generated where $A_i$ is less than $q$.
