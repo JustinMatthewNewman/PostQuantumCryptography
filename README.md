@@ -12,8 +12,8 @@ integer size $n$.
 integer secret $s$.
 
 # Vector A
-$$A = (A_1, A_2, \ldots, A_i, \ldots, A_n)$$
 Each $A_i$ is randomly generated where $A_i$ is less than $q$.
+$$A = (A_1, A_2, \ldots, A_i, \ldots, A_n)$$
 # Vector B
 $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
