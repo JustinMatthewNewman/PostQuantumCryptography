@@ -11,13 +11,13 @@ We begin with a prime integer $q$.
 
 
 # Vector A
-$$A = (A_1, A_2, \ldots, A_n)$$
-$$Each $A_i$ is randomly generated where $A_i$ is less than $q$.$$
+$$A = (A_1, A_2, \ldots, A_i, \ldots, A_n)$$
+Each $A_i$ is randomly generated where $A_i$ is less than $q$.
 # Vector B
 $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
 # Error Vector e
-`e = small random error values with same numner of entries as vector A`
+$$e = (e_1, e_2,  \ldots, e_i, \ldots, e_n)$$
 
 
 
