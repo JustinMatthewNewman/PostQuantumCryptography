@@ -8,7 +8,8 @@ LWE relies on the hardness of distinguishing random linear equations from those 
 It generates a public key made up of a matrix A and a vector B.
 
 We begin with a prime integer $q$.
-
+integer size $n$.
+integer secret $s$.
 
 # Vector A
 $$A = (A_1, A_2, \ldots, A_i, \ldots, A_n)$$
