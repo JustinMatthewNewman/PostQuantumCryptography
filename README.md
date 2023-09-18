@@ -33,7 +33,9 @@ $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
 
 
-Next we choose various random indexes $i$ and sample pairs of ( $A_i$ , $B_i$ ).
+Next we choose various random indexes $i$ and sample pairs from A and B.
+
+( $A_i$ , $B_i$ ).
 
 We let $c$ denote the sample size.
 
