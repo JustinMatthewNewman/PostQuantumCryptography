@@ -8,11 +8,12 @@ LWE relies on the hardness of distinguishing random linear equations from those 
 
 It generates a public key made up of a matrix A and a vector B.
 
-`A = list of Random ints no greater than prime number 'q' with a fixed length.`
-
+# Vector A
+`list of Random ints no greater than prime number 'q' with a fixed length.`
+# Vector B
 `B_i = A_i x (s + e_i) (mod q)`
-
-`e = random error values with same numner of entries as vector A`
+# Error Vector e
+`e = small random error values with same numner of entries as vector A`
 
 
 
