@@ -41,9 +41,9 @@ We let $c$ denote the sample size.
 
 To encrypt, the random samples are summed separately. 
 
-$$u=\left( \sum_{i=1}^c sample_{A_i} \right)  \pmod{q}
+$$u=\left( \sum_{i=1}^c sample_{A_i} \right)  \pmod{q} $$
 
-v=\left( \sum_{i=1}^c sample_{B_i} \right) + \left\lfloor \frac{q}{2} \right\rfloor \cdot M \pmod{q} $$
+$$v=\left( \sum_{i=1}^c sample_{B_i} \right) + \left\lfloor \frac{q}{2} \right\rfloor \cdot M \pmod{q} $$
 
 
 Where $M$ is a single bit to be encrypted.
