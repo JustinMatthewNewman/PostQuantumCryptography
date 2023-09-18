@@ -9,7 +9,7 @@ LWE relies on the hardness of distinguishing random linear equations from those 
 It generates a public key made up of a matrix A and a vector B.
 
 # Vector A
-$A = (A_1, A_2, \ldots, A_n)$
+$$A = (A_1, A_2, \ldots, A_n)$$
 $A_i$ are the elements of vector A
 $n$ is the length of the vector
 Each $A_i$ is randomly generated in $\mathbb{Z}_q$ (integers modulo q)
