@@ -48,6 +48,8 @@ $$v=\left( \sum_{i=1}^c sample_{B_i} \right) + \left\lfloor \frac{q}{2} \right\r
 
 Where $M$ is a single bit to be encrypted.
 
+The single encryped bit is now stored in $(u,v)$.
+
 To decrypt, the I used: v - su (mod q)
 
 Original algorithm invented by Oded Regev.
