@@ -31,7 +31,9 @@ $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
 # Random Samples
 
-Next we take various random samples as pairs of ( $A_k$, $B_k$ ).
+
+
+Next we take various random samples as pairs of ( $A_i$, $B_i$ ).
 
 let $c$ denote the sample size.
 
