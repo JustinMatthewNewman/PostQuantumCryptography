@@ -11,7 +11,8 @@ It generates a public key made up of a matrix A and a vector B.
 # Vector A
 `list of Random ints no greater than prime number 'q' with a fixed length.`
 # Vector B
-`B_i = A_i x (s + e_i) (mod q)`
+$$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
+
 # Error Vector e
 `e = small random error values with same numner of entries as vector A`
 
