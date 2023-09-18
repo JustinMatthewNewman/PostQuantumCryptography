@@ -43,11 +43,9 @@ To encrypt, the random samples are summed separately.
 
 $$u=\left( \sum_{i=1}^c sample_(A_i) \right), v=\left( \sum_{i=1}^c sample_(B_i) \right)$$
 
-And then
 
+$v = (v + \left\lfloor \frac{q}{2} \right\rfloor \cdot M)\pmod{q}$
 
-$v = v + \left\lfloor \frac{q}{2} \right\rfloor \cdot M$
-$v = v \pmod{q}$
 $u = u \pmod{q}$
 
 Where $M$ is a single bit to be encrypted.
