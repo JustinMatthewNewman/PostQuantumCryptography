@@ -39,7 +39,7 @@ Next we choose various random indexes $i$ and sample pairs from A and B.
 
 We let $z$ denote the sample size.
 
-To encrypt, the random samples are summed separately. 
+To encrypt, we use. 
 
 $$u=\left( \sum_{i=1}^z A_i Samples \right)  \pmod{q} $$
 
