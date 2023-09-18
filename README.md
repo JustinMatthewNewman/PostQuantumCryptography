@@ -52,7 +52,7 @@ The single encryped bit is now stored in $(u,v)$.
 
 To decrypt, the we follow:
 
-Bit = $v - su (mod q)$
+Bit = $(v - s \cdot u) (mod q)$
 
 Original algorithm invented by Oded Regev.
 This python implementation was created by:
