@@ -4,7 +4,6 @@ LWE provides resistance against quantum computers by using randomly generated ma
 
 LWE relies on the hardness of distinguishing random linear equations from those with added small errors. 
 
-It generates a public key made up of a vector A and a vector B.
 
 We begin with the following constant values:
 
@@ -14,6 +13,7 @@ A discrete integer secret $'s'$.
 
 A randomly selected prime integer  $'q'$.
 
+It generates a public key made up of a vector A and a vector B of length $'n'$.
 
 
 # Vector A
