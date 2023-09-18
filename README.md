@@ -39,7 +39,7 @@ Next we choose various random indexes $i$ and sample pairs from A and B.
 
 We let $z$ denote the sample size.
 
-To encrypt, we use. 
+To encrypt, we implement. 
 
 $$u=\left( \sum_{i=1}^z A_i Samples \right)  \pmod{q} $$
 
@@ -50,7 +50,9 @@ Where $M$ is a single bit to be encrypted.
 
 The single encryped bit is now stored in $(u,v)$.
 
-To decrypt, the I used: v - su (mod q)
+To decrypt, the we follow:
+
+Bit = $v - su (mod q)$
 
 Original algorithm invented by Oded Regev.
 This python implementation was created by:
