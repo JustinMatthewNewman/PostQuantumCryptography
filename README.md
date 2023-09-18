@@ -12,7 +12,7 @@ We begin with a prime integer $q$.
 
 # Vector A
 $$A = (A_1, A_2, \ldots, A_n)$$
-Each $A_i$ is randomly generated where $A_i$ is less than $q$.
+$$Each $A_i$ is randomly generated where $A_i$ is less than $q$.$$
 # Vector B
 $$B_i \equiv A_i \cdot (s + e_i) \pmod{q}$$
 
