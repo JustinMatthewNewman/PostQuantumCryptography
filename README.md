@@ -37,15 +37,13 @@ Next we choose various random indexes $i$ and sample pairs from A and B.
 
 ( $A_i$ , $B_i$ ).
 
-We can now form $C$ and $D$, our sample vectors from A and B.
-
 We let $z$ denote the sample size.
 
 To encrypt, the random samples are summed separately. 
 
-$$u=\left( \sum_{i=1}^z C_i \right)  \pmod{q} $$
+$$u=\left( \sum_{i=1}^z A_i Samples \right)  \pmod{q} $$
 
-$$v=\left( \sum_{i=1}^z D_i \right) + \left\lfloor \frac{q}{2} \right\rfloor \cdot M \pmod{q} $$
+$$v=\left( \sum_{i=1}^z B_i Samples \right) + \left\lfloor \frac{q}{2} \right\rfloor \cdot M \pmod{q} $$
 
 
 Where $M$ is a single bit to be encrypted.
