@@ -54,7 +54,7 @@ To decrypt, the we follow:
 
 Bit = $(v - s \cdot u) (mod q)$
 
-Original algorithm invented by [Oded Regev](https://pages.github.com/).
+Original algorithm invented by [Oded Regev](https://en.m.wikipedia.org/wiki/Oded_Regev_(computer_scientist)).
 This python implementation was created by:
 [Justin Newman](https://newmanjustin.com/).
 
